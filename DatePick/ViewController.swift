@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         
         myDatePicker.datePickerMode = UIDatePicker.Mode.dateAndTime
         
+        //오늘의 날짜
         let date = Date();
         let format = DateFormatter();
         format.dateFormat = "yyyy-MM-dd HH:mm EEE a"
